@@ -48,7 +48,7 @@ export default function UserDashboard() {
     setActiveSection(action);
     
     if (action === "add-listing") {
-      navigate("/add-business");
+      window.open("https://preview--wave-crest-connect.lovable.app/list-business", "_blank");
     } else if (action === "website-pos") {
       navigate("/list-&-get-pos-website");
     }
