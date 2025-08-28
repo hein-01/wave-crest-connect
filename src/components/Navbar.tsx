@@ -53,7 +53,7 @@ export const Navbar = () => {
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button variant="default" size="sm" className="flex items-center space-x-1">
-                    <span>Dashboard</span>
+                    <span>My Account</span>
                     <ChevronDown className="h-3 w-3" />
                   </Button>
                 </DropdownMenuTrigger>
